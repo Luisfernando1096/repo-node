@@ -12,4 +12,6 @@ app.get('/', (req, res)=>{
     
 })
 .use('/cursos', require('./cursos/index.js'))
+.use('/tiposcurso', require('./tiposcurso/index.js'))
+.use('/horarios', require('./horarios/index.js'))
 module.exports = app
