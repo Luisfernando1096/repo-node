@@ -14,4 +14,6 @@ app.get('/', (req, res)=>{
 .use('/cursos', require('./cursos/index.js'))
 .use('/tiposcurso', require('./tiposcurso/index.js'))
 .use('/horarios', require('./horarios/index.js'))
+.use('/departamentos', require('./departamentos/index.js'))
+.use('/municipios', require('./municipios/index.js'))
 module.exports = app
